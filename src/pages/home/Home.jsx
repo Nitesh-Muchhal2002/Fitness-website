@@ -1,11 +1,17 @@
 import React from 'react'
+import Header from '../../components/MainHeader'
 import './home.css'
-import Header from '../../components/Header'
+import Programs from '../../components/Programs'
+import Values from '../../components/Values'
+import FAQS from '../../components/FAQS'
+
 function Home() {
   return (
    <>
    <Header/>
-   
+   <Programs/>
+   <Values/>
+   <FAQS/>
    </>
   )
 }
