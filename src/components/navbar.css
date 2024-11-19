@@ -23,6 +23,7 @@ nav{
 }
 .logo{
     width: 7rem;
+    display: block;
 }
 .nav_links{
     display: flex;
