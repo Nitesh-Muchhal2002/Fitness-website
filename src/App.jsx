@@ -9,6 +9,7 @@ import Plans from './pages/plans/Plans'
 import NotFound from './pages/notFound/Notfound'
 import Trainers from './pages/trainers/Trainers'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
        <Route path='trainers' element ={<Trainers/>}/>
        <Route path='*' element = {<NotFound/>}/>
       </Routes>
+      <Footer/>
     </BrowserRouter>
   )
 }
