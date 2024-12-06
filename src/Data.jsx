@@ -27,6 +27,10 @@ export const links = [
     name: "Contact",
     path: "/contact",
   },
+  {
+    name:"BMI",
+    path:"/bmi"
+  }
 ];
 
 export const programs = [

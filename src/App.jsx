@@ -10,6 +10,7 @@ import NotFound from './pages/notFound/Notfound'
 import Trainers from './pages/trainers/Trainers'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Bmi from './pages/Bmi/Bmi'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
        <Route path='gallery' element ={<Gallery/>}/>
        <Route path="plans"  element ={<Plans/>}/>
        <Route path='trainers' element ={<Trainers/>}/>
+       <Route path ='bmi' element={<Bmi/>}/>
        <Route path='*' element = {<NotFound/>}/>
       </Routes>
       <Footer/>

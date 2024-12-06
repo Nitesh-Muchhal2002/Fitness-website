@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Image from '../images/main_header.png'
 
+
 function MainHeader() {
   return (
     <header className="main_header">
@@ -26,7 +27,9 @@ function MainHeader() {
             <img src={Image} alt="header image" />
           </div>
         </div>
+
       </div>
+
     </header>
   );
 }
