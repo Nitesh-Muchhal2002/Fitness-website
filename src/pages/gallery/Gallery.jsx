@@ -11,7 +11,6 @@ import image6 from '../../images/gallery6.jpg'
 import image7 from '../../images/gallery7.jpg'
 import image8 from '../../images/gallery8.jpg'
 import image9 from '../../images/gallery9.jpg'
-import video from '../../images/vi.mp4'
 
 
 import "./gallery.css";
